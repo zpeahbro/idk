@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>01</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #080808;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  font-family: Arial, sans-serif;
+}
+.number {
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+.hat { font-size: 65px; }
+.creeper {
+  width: 160px;
+  height: 160px;
+  image-rendering: pixelated;
+}
+</style>
+</head>
+<body>
+  <div class="number">01</div>
+  <div class="hat">🎅🏻</div>
+  <svg class="creeper" viewBox="0 0 8 8"
+       xmlns="http://www.w3.org/2000/svg">
+    <rect width="8" height="8" fill="#55aa35"/>
+    <path fill="#111" d="M1 1h2v2H1z M5 1h2v2H5z
+      M3 3h2v2H3z M2 5h1v2H2z M5 5h1v2H5z
+      M3 6h2v1H3z"/>
+  </svg>
+</body>
+</html>
